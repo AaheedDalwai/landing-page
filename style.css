@@ -48,6 +48,7 @@ a {
 .right {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: gray;
     flex: 1;
     margin: 16px 0px 16px 16px;
@@ -177,4 +178,8 @@ button.second {
 
 .content {
     flex-grow: 1;
+}
+
+img {
+    border-radius: 10px;
 }
